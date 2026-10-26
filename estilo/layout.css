@@ -150,12 +150,6 @@ form > fieldset > button {
     align-self: center;
     margin-top: 1em;
 }
-/* Especificidad: 001 */
-textarea {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-}
  
 @media screen and (max-width: 1024px) {
     /* Especificidad: 003 */
