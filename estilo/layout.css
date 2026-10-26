@@ -160,7 +160,8 @@ form > fieldset > button {
  
 @media screen and (max-width: 1024px) {
     /* Especificidad: 003 */
-    section:has(> article + article) {
+    section:has(article + article) {
+        /*ADVERTENCIA: redefinición de la propiedad con valor original grid-template-columns: repeat(4, 1fr); */
         grid-template-columns: repeat(2, 1fr);
     }
  
@@ -183,7 +184,8 @@ form > fieldset > button {
  
 @media screen and (max-width: 768px) {
     /* Especificidad: 003 */
-    section:has(article ~ article) {
+    section:has(article + article) {
+        /*ADVERTENCIA: redefinición de la propiedad con valor original grid-template-columns: repeat(4, 1fr); */
         grid-template-columns: 1fr;
     }
  
@@ -218,10 +220,9 @@ form > fieldset > button {
     header + nav[aria-label="migas"] {
         display: none;
     }
-    
+
     /* Especificidad: 001 */
     form {
-        width: 100%;
         padding: 0;
     }
 
@@ -238,15 +239,8 @@ form > fieldset > button {
     }
 
     /* Especificidad: 003 */
-    form > fieldset > input,
-    form > fieldset > select,
-    form > fieldset > textarea {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    /* Especificidad: 003 */
     form > fieldset > button {
+        /*ADVERTENCIA: redefinición de la propiedad con valor original align-self: center; */
         align-self: stretch;
     }
 }
