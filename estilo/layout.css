@@ -109,8 +109,9 @@ footer {
  
 /* Especificidad: 001 */
 form {
-    width: fit-content;
+    width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
 }
  
 /* Especificidad: 002 */
@@ -119,6 +120,8 @@ form fieldset {
     flex-direction: column;
     align-items: flex-start;
     min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
  
 /* Especificidad: 003 */
@@ -146,6 +149,12 @@ form > fieldset > textarea {
 form > fieldset > button {
     align-self: center;
     margin-top: 1em;
+}
+/* Especificidad: 001 */
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
  
 @media screen and (max-width: 1024px) {
