@@ -72,6 +72,12 @@ header + nav[aria-label="migas"] {
 main {
     grid-area: contenido;
 }
+/* Especificidad: 002 */
+main > section {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 /* Especificidad: 001 */
 footer {
     grid-area: pie;
@@ -149,12 +155,6 @@ form > fieldset > textarea {
 form > fieldset > button {
     align-self: center;
     margin-top: 1em;
-}
-/* Especificidad: 001 */
-textarea {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
 }
  
 @media screen and (max-width: 1024px) {
