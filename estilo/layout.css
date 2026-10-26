@@ -72,12 +72,6 @@ header + nav[aria-label="migas"] {
 main {
     grid-area: contenido;
 }
-/* Especificidad: 002 */
-main > section {
-    min-width: 0;
-    max-width: 100%;
-    box-sizing: border-box;
-}
 /* Especificidad: 001 */
 footer {
     grid-area: pie;
@@ -117,17 +111,16 @@ footer {
 form {
     width: 100%;
     max-width: 100%;
-    min-width: 0;
     box-sizing: border-box;
 }
-
+ 
 /* Especificidad: 002 */
 form fieldset {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     min-width: 0;
-    max-width: 100%;
+    width: 100%;
     box-sizing: border-box;
 }
  
