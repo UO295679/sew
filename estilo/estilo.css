@@ -1,0 +1,142 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Darío Corbeira Presno         */
+/*  Correo electrónico (uniovi): UO295679@uniovi.es   */
+/*  Grupo de laboratorio: 5               */
+/* ***************************************/
+/* Especificidad: 010 */
+:root {
+    --color-principal: #8B0000;
+    --color-secundario: #FFF3B0;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+ 
+/* Gama cromática
+   Color principal: #8B0000 (rojo oscuro)
+   Contraste con blanco: 10.01:1
+   Contraste con amarillo secundario: 8.91:1
+ 
+   Color secundario: #FFF3B0
+   Contraste con negro: 17.9:1
+   Contraste con rojo principal: 8.91:1
+ 
+   Negro: #000000
+   Blanco: #FFFFFF
+*/
+ 
+/* Especificidad: 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-negro);
+    background-color: var(--color-blanco);
+}
+ 
+/* Especificidad: 001 */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+ 
+/* Especificidad: 001 */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+ 
+/* Especificidad: 002 */
+header a,
+footer a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+ 
+/* Especificidad: 001 */
+h1 {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
+ 
+/* Especificidad: 001 */
+h2 {
+    color: var(--color-principal);
+    background-color: var(--color-blanco);
+}
+ 
+/* Especificidad: 012 */
+header a[aria-current="page"] {
+    color: var(--color-negro);
+    background-color: var(--color-secundario);
+    font-weight: bold;
+}
+ 
+/* Especificidad: 012 */
+header a:focus-visible,
+footer a:focus-visible {
+    outline: 0.15em solid var(--color-secundario);
+    outline-offset: 0.15em;
+}
+ 
+/* Especificidad: 014 */
+section:has(picture) ul > li:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+ 
+/* Especificidad: 014 */
+section:has(picture) ul > li:nth-child(3) {
+    font-size: 1em;
+    font-weight: normal;
+}
+ 
+/* Especificidad: 014 */
+section:has(picture) ul > li:nth-child(4) {
+    font-weight: bold;
+}
+ 
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+    max-width: 100%;
+}
+ 
+/* Especificidad: 002 */
+table th,
+table td {
+    border: 0.08em solid var(--color-principal);
+    padding: 0.5em;
+}
+ 
+/* Especificidad: 002 */
+table th {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
+ 
+/* Especificidad: 013 */
+table tr:nth-child(even) td {
+    color: var(--color-negro);
+    background-color: var(--color-secundario);
+}
+/* Especificidad: 013 */
+header + nav[aria-label="migas"] ol {
+    font-size: 0.8em;
+    list-style: none;
+    margin: 0.5em 1em;
+    padding: 0;
+}
+ 
+/* Especificidad: 014 */
+header + nav[aria-label="migas"] ol > li {
+    display: inline;
+}
+ 
+/* Especificidad: 024 */
+header + nav[aria-label="migas"] ol > li:last-child {
+    font-weight: bold;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Darío Corbeira Presno" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+   <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista Timo Roosen">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo Team Picnic PostNL">Equipo</a>
+            <a href="etapa.html" title="Información detallada de la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Predicción meteorológica de la etapa">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de la carrera">Clasificaciones</a>
+            <a href="juegos.html" title="Juego de preguntas sobre la etapa" aria-current="page">Juegos</a>
+            <a href="ayuda.html" title="Ayuda y navegación del sitio web">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>>>Juegos</li>
+        </ol>
+    </nav>
+    <main>
+    <h2>Juegos</h2>
+    <section>
+    <h3>¿Conoces la etapa?</h3>
+    <p>
+        Demuestra tus conocimientos sobre la etapa de La Vuelta 2026 respondiendo a las 10 preguntas de este cuestionario sobre su recorrido, 
+        características e hitos principales.
+    </p>
+    <form>
+        <fieldset>
+            <legend>Etapa 21: Carrefour Granada - Granada</legend>
+
+            <label for="num-etapa">1. ¿Qué número de etapa es?</label>
+            <input type="number" id="num-etapa" min="1" max="21">
+
+            <label for="fecha-etapa">2. ¿En qué fecha se celebra la etapa?</label>
+            <input type="date" id="fecha-etapa">
+
+            <label for="lugar-salida">3. Selecciona la ciudad o lugar de salida de la etapa:</label>
+            <select id="lugar-salida">
+                <option value="">Seleccione una opción</option>
+                <option value="Andorra la Vella">Andorra la Vella</option>
+                <option value="Alcossebre">Alcossebre</option>
+                <option value="Alcaraz">Alcaraz</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="El Puerto de Santa María">El Puerto de Santa María</option>
+                <option value="La Calahorra">La Calahorra</option>
+                <option value="Carrefour Granada">Carrefour Granada</option>
+            </select>
+
+            <label for="lugar-llegada">4. Selecciona la ciudad o lugar de llegada de la etapa:</label>
+            <select id="lugar-llegada">
+                <option value="">Seleccione una opción</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Castelló">Castelló</option>
+                <option value="Lorca">Lorca</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Jerez de la Frontera">Jerez de la Frontera</option>
+                <option value="Granada">Granada</option>
+            </select>
+
+            <fieldset>
+                <legend>5. ¿Cuál es el tipo de etapa?</legend>
+                <label for="tipo-llana"><input type="radio" id="tipo-llana" name="tipo_etapa" value="llana"> Llana</label>
+                <label for="tipo-mediamontana"><input type="radio" id="tipo-mediamontana" name="tipo_etapa" value="media_montana"> Media montaña</label>
+                <label for="tipo-montana"><input type="radio" id="tipo-montana" name="tipo_etapa" value="montana"> Montaña</label>
+                <label for="tipo-cri"><input type="radio" id="tipo-cri" name="tipo_etapa" value="cri"> Contrarreloj individual</label>
+                <label for="tipo-cre"><input type="radio" id="tipo-cre" name="tipo_etapa" value="cre"> Contrarreloj por equipos</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>6. Selecciona los hitos presentes en la etapa:</legend>
+                <label for="hito-puerto"><input type="checkbox" id="hito-puerto" value="puerto"> Puerto de montaña</label>
+                <label for="hito-especial"><input type="checkbox" id="hito-especial" value="especial"> Puerto categoría especial</label>
+                <label for="hito-sprint"><input type="checkbox" id="hito-sprint" value="sprint"> Sprint intermedio</label>
+                <label for="hito-bonificado"><input type="checkbox" id="hito-bonificado" value="bonificado"> Sprint bonificado</label>
+                <label for="hito-sinhitos"><input type="checkbox" id="hito-sinhitos" value="sin_hitos"> Sin hitos</label>
+            </fieldset>
+
+            <label for="dificultad-etapa">7. Valora la dureza de la etapa (del 1 al 10):</label>
+            <input type="range" id="dificultad-etapa" min="1" max="10">
+
+            <label for="longitud-etapa">8. Introduce la longitud total de la etapa (en km):</label>
+            <input type="number" id="longitud-etapa">
+
+            <label for="desnivel-etapa">9. Introduce el desnivel acumulado de la etapa (en metros):</label>
+            <input type="number" id="desnivel-etapa" placeholder="Ej. 450">
+
+            <label for="descripcion-etapa">10. Escribe una breve descripción de la etapa:</label>
+            <textarea id="descripcion-etapa" rows="4" cols="50" placeholder="Escribe aquí tu análisis o descripción de la etapa..."></textarea>
+
+            <label for="nombre-participante">Nombre del estudiante / participante:</label>
+            <input type="text" id="nombre-participante" placeholder="Tu Nombre y Apellidos">
+
+            <button type="submit">Enviar respuestas</button>
+        </fieldset>
+    </form>
+    </section>
+    </main>
+    <footer>
+        <p>Darío Corbeira Presno</p>
+        <address>
+            <a href="mailto:UO295679@uniovi.es">
+                UO295679@uniovi.es
+            </a>
+        </address>
+    </footer>
+</body>
+</html>

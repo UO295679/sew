@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Carrefour Granada a Granada</name>
+
+    <!-- Estilo para la línea del recorrido -->
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Estilo Rojo: Salida y Meta -->
+    <Style id="redPin">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Estilo Verde: Puertos de Montaña -->
+    <Style id="greenPin">
+      <IconStyle>
+        <color>ff008000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Estilo Azul: Sprints Intermedios -->
+    <Style id="bluePin">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Estilo Amarillo: Puntos con Kilometraje -->
+    <Style id="yellowPin">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Trazado de la ruta (clampToGround para evitar muros 3D) -->
+    <Placemark>
+      <name>Ruta de la Etapa</name>
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -3.60759,37.15443,680
+          -3.591533,37.170686,675
+          -3.6120,37.1480,670
+          -3.6210,37.1390,650
+          -3.6350,37.1420,645
+          -3.6450,37.1510,640
+          -3.6620,37.1580,630
+          -3.6780,37.1650,625
+          -3.6980,37.1750,600
+          -3.7180,37.1890,582
+          -3.7500,37.1920,570
+          -3.7750,37.1980,560
+          -3.7920,37.2150,555
+          -3.7650,37.2250,562
+          -3.7420,37.2360,570
+          -3.7150,37.2320,585
+          -3.6910,37.2280,600
+          -3.6700,37.2220,608
+          -3.6540,37.2180,615
+          -3.6300,37.2050,630
+          -3.6010,37.1950,650
+          -3.5840,37.1820,670
+          -3.5840,37.1200,770
+          -3.5910,37.1450,710
+          -3.6010,37.1620,685
+          -3.5980,37.1660,680
+          -3.5947512,37.1697044,675
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Salida: Carrefour Granada (KM 0)</name>
+      <styleUrl>#redPin</styleUrl>
+      <Point>
+        <coordinates>-3.60759,37.15443,680</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sprint: Sprint intermedio - Granada (KM 92.4)</name>
+      <styleUrl>#bluePin</styleUrl>
+      <Point>
+        <coordinates>-3.591533,37.17078600000001,675.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 4.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6120,37.1480,670</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 9.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6210,37.1390,650</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 13.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6350,37.1420,645</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 18.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6450,37.1510,640</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 22.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6620,37.1580,630</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 27.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6780,37.1650,625</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 31.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6980,37.1750,600</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 36.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7180,37.1890,582</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 40.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7500,37.1920,570</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 45.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7750,37.1980,560</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 49.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7920,37.2150,555</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 54.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7650,37.2250,562</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 58.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7420,37.2360,570</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 63.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.7150,37.2320,585</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 67.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6910,37.2280,600</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 72.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6700,37.2220,608</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 76.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6540,37.2180,615</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 81.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6300,37.2050,630</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 85.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6010,37.1950,650</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 94.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.5840,37.1820,670</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 98.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.5840,37.1200,770</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 102.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.5910,37.1450,710</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 105.5</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.6010,37.1620,685</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>KM 109.0</name>
+      <styleUrl>#yellowPin</styleUrl>
+      <Point>
+        <coordinates>-3.5980,37.1660,680</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Meta: Granada (KM 112)</name>
+      <styleUrl>#redPin</styleUrl>
+      <Point>
+        <coordinates>-3.5947512,37.1697044,675</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

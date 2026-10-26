@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Darío Corbeira Presno" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+   <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista Timo Roosen" aria-current="page">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo Team Picnic PostNL">Equipo</a>
+            <a href="etapa.html" title="Información detallada de la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Predicción meteorológica de la etapa">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de la carrera">Clasificaciones</a>
+            <a href="juegos.html" title="Juego de preguntas sobre la etapa">Juegos</a>
+            <a href="ayuda.html" title="Ayuda y navegación del sitio web">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>>>Ciclista</li>
+        </ol>
+    </nav>
+    <main>
+    <h2>Timo Roosen</h2>
+    <section>
+        <h3>Datos personales</h3>
+        <ul>
+            <li>Timo Roosen</li>
+            <li>11/01/1993</li>
+            <li>Países Bajos</li>
+            <li>TEAM PICNIC POSTNL</li>
+            <li>176</li>
+        </ul>
+        <picture>
+            <source srcset="multimedia/ciclistaMovil.png"
+                media="(max-width: 768px)"
+                width="150" height="200" />
+            <source srcset="multimedia/ciclistaTablet.png"
+                media="(max-width: 1024px)"
+                width="300" height="400" />
+            <img src="multimedia/ciclista.png"
+                alt="Fotografía del ciclista Timo Roosen"
+                width="300" height="455" />
+        </picture>
+    </section>
+    <section>
+        <h3>Datos equipos</h3>
+        <ol>
+            <li>Team dsm-firmenich PostNL / Team Picnic PostNL (2024 - presente)</li>
+            <li>Jumbo-Visma (2019 - 2023)</li>
+            <li>LottoNL-Jumbo (2015 - 2018)</li>
+            <li>Rabobank Development Team (2014)</li>
+        </ol>
+    </section>
+    <section>
+        <h3>Temporada 2025</h3>
+        <table>
+            <caption>Temporada 2025</caption>
+            <thead>
+                <tr>
+                    <th id="dato" scope="col">Nombre del dato</th>
+                    <th id="resultado" scope="col">Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="carrera1" scope="row">Carrera destacada 1</th>
+                    <td headers="carrera1 resultado">Participación en Clásicas de Primavera</td>
+                </tr>
+                <tr>
+                    <th id="carrera2" scope="row">Carrera destacada 2</th>
+                    <td headers="carrera2 resultado">Critérium du Dauphiné (Lanzador/Gregario)</td>
+                </tr>
+                <tr>
+                    <th id="victorias" scope="row">Victorias de etapa</th>
+                    <td headers="victorias resultado">0 victorias</td>
+                </tr>
+                <tr>
+                    <th id="podios" scope="row">Podios conseguidos</th>
+                    <td headers="podios resultado">0 podios</td>
+                </tr>
+                <tr>
+                    <th id="rol" scope="row">Rol principal en equipo</th>
+                    <td headers="rol resultado">Lanzador de sprints / Gregario de llano</td>
+                </tr>
+                <tr>
+                    <th id="vueltas" scope="row">Grandes Vueltas disputadas</th>
+                    <td headers="vueltas resultado">La Vuelta a España 2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h3>Multimedia</h3>
+        <p>
+            Equipo
+            <a href="https://www.lavuelta.es/es">
+            TEAM PICNIC POSTNL
+            </a>
+            en la Vuelta Ciclista a España 2026.
+        </p>
+        <video controls
+           poster="multimedia/equipo-picnic-postnl-poster.png">
+            <source src="multimedia/equipo-picnic-postnl.webm"
+                type="video/webm" />
+            <source src="multimedia/equipo-picnic-postnl.mp4"
+                type="video/mp4" />
+            Tu navegador no puede reproducir este vídeo.
+        </video>
+
+        <audio controls>
+            <source src="multimedia/audio.mp3"
+                type="audio/mpeg" />
+            <source src="multimedia/audio.wav"
+                type="audio/wav" />
+            Tu navegador no puede reproducir este audio.
+        </audio>
+    </section>
+    </main>
+    <footer>
+        <p>Darío Corbeira Presno</p>
+        <address>
+            <a href="mailto:UO295679@uniovi.es">
+                UO295679@uniovi.es
+            </a>
+        </address>
+    </footer>
+</body>
+</html>

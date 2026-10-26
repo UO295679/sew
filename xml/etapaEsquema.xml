@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<etapa xmlns="http://www.uniovi.es"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+    <nombre>Carrefour Granada a Granada</nombre>
+    <numero>21</numero>
+
+    <longitud unidad="km">112</longitud>
+
+    <fecha>2026-09-13</fecha>
+
+    <tiempoGanador>02:54:08</tiempoGanador>
+
+    <velocidadMedia unidad="km/h">31.87</velocidadMedia>
+
+    <desnivel unidad="m">1217</desnivel>
+
+    <tipo>llana</tipo>
+
+    <salida>
+        <lugar>Carrefour Granada</lugar>
+        <coordenadas>
+            <longitudGeografica unidad="grados">-3.60759</longitudGeografica>
+            <latitud unidad="grados">37.15443</latitud>
+            <altitud unidad="m">680</altitud>
+        </coordenadas>
+    </salida>
+
+    <llegada>
+        <lugar>Granada</lugar>
+        <coordenadas>
+            <longitudGeografica unidad="grados">-3.5947512</longitudGeografica>
+            <latitud unidad="grados">37.1697044</latitud>
+            <altitud unidad="m">675</altitud>
+        </coordenadas>
+    </llegada>
+
+    <referencias>
+        <referencia>https://www.carrefour.es/tiendas-carrefour/andalucia/granada/</referencia>
+        <referencia>https://turgranada.es/</referencia>
+        <referencia>https://www.granada.org/</referencia>
+    </referencias>
+
+    <galeriaFotografias>
+        <fotografia archivo="multimedia/foto1.jpg">
+            Fotografía de la etapa
+        </fotografia>
+    </galeriaFotografias>
+
+    <galeriaVideos>
+        <video archivo="multimedia/video1.mp4">
+            Vídeo de la etapa
+        </video>
+    </galeriaVideos>
+
+    <galeriaSonidos>
+        <sonido archivo="multimedia/sonido1.mp3">
+            Podcast de la etapa
+        </sonido>
+    </galeriaSonidos>
+
+    <hitos>
+        <sprintIntermedio>
+            <nombre>Sprint intermedio - Granada</nombre>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.591533</longitudGeografica>
+                <latitud unidad="grados">37.170686</latitud>
+                <altitud unidad="m">675</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">92.4</distanciaDesdeSalida>
+        </sprintIntermedio>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6120</longitudGeografica>
+                <latitud unidad="grados">37.1480</latitud>
+                <altitud unidad="m">670</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">4.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6210</longitudGeografica>
+                <latitud unidad="grados">37.1390</latitud>
+                <altitud unidad="m">650</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">9.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6350</longitudGeografica>
+                <latitud unidad="grados">37.1420</latitud>
+                <altitud unidad="m">645</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">13.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6450</longitudGeografica>
+                <latitud unidad="grados">37.1510</latitud>
+                <altitud unidad="m">640</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">18.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6620</longitudGeografica>
+                <latitud unidad="grados">37.1580</latitud>
+                <altitud unidad="m">630</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">22.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6780</longitudGeografica>
+                <latitud unidad="grados">37.1650</latitud>
+                <altitud unidad="m">625</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">27.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6980</longitudGeografica>
+                <latitud unidad="grados">37.1750</latitud>
+                <altitud unidad="m">600</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">31.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7180</longitudGeografica>
+                <latitud unidad="grados">37.1890</latitud>
+                <altitud unidad="m">582</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">36.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7500</longitudGeografica>
+                <latitud unidad="grados">37.1920</latitud>
+                <altitud unidad="m">570</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">40.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7750</longitudGeografica>
+                <latitud unidad="grados">37.1980</latitud>
+                <altitud unidad="m">560</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">45.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7920</longitudGeografica>
+                <latitud unidad="grados">37.2150</latitud>
+                <altitud unidad="m">555</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">49.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7650</longitudGeografica>
+                <latitud unidad="grados">37.2250</latitud>
+                <altitud unidad="m">562</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">54.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7420</longitudGeografica>
+                <latitud unidad="grados">37.2360</latitud>
+                <altitud unidad="m">570</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">58.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.7150</longitudGeografica>
+                <latitud unidad="grados">37.2320</latitud>
+                <altitud unidad="m">585</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">63.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6910</longitudGeografica>
+                <latitud unidad="grados">37.2280</latitud>
+                <altitud unidad="m">600</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">67.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6700</longitudGeografica>
+                <latitud unidad="grados">37.2220</latitud>
+                <altitud unidad="m">608</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">72.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6540</longitudGeografica>
+                <latitud unidad="grados">37.2180</latitud>
+                <altitud unidad="m">615</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">76.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6300</longitudGeografica>
+                <latitud unidad="grados">37.2050</latitud>
+                <altitud unidad="m">630</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">81.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6010</longitudGeografica>
+                <latitud unidad="grados">37.1950</latitud>
+                <altitud unidad="m">650</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">85.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.5840</longitudGeografica>
+                <latitud unidad="grados">37.1820</latitud>
+                <altitud unidad="m">670</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">94.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.5840</longitudGeografica>
+                <latitud unidad="grados">37.1200</latitud>
+                <altitud unidad="m">770</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">98.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.5910</longitudGeografica>
+                <latitud unidad="grados">37.1450</latitud>
+                <altitud unidad="m">710</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">102.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.6010</longitudGeografica>
+                <latitud unidad="grados">37.1620</latitud>
+                <altitud unidad="m">685</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">105.5</distanciaDesdeSalida>
+        </puntoAnonimo>
+
+        <puntoAnonimo>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-3.5980</longitudGeografica>
+                <latitud unidad="grados">37.1660</latitud>
+                <altitud unidad="m">680</altitud>
+            </coordenadas>
+            <distanciaDesdeSalida unidad="km">109.0</distanciaDesdeSalida>
+        </puntoAnonimo>
+    </hitos>
+
+    <clasificacionEtapa>
+        <corredor posicion="1">
+            <nombre>Tobias Halland Johannessen</nombre>
+            <equipoCorredor>Uno-X Mobility</equipoCorredor>
+            <tiempo>02:54:08</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </corredor>
+
+        <corredor posicion="2">
+            <nombre>Alessandro Romele</nombre>
+            <equipoCorredor>XDS Astana Team</equipoCorredor>
+            <tiempo>02:54:08</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </corredor>
+
+        <corredor posicion="3">
+            <nombre>Ramses Debruyne</nombre>
+            <equipoCorredor>Alpecin-Premier Tech</equipoCorredor>
+            <tiempo>02:54:08</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </corredor>
+    </clasificacionEtapa>
+
+    <clasificacionGeneral>
+        <corredor posicion="1">
+            <nombre>Enric Mas</nombre>
+            <equipoCorredor>Movistar Team</equipoCorredor>
+            <tiempo>73:52:55</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </corredor>
+
+        <corredor posicion="2">
+            <nombre>Primoz Roglic</nombre>
+            <equipoCorredor>Red Bull - BORA - hansgrohe</equipoCorredor>
+            <tiempo>73:55:10</tiempo>
+            <diferencia>00:02:15</diferencia>
+        </corredor>
+
+        <corredor posicion="3">
+            <nombre>Felix Gall</nombre>
+            <equipoCorredor>Decathlon CMA CGM Team</equipoCorredor>
+            <tiempo>73:55:39</tiempo>
+            <diferencia>00:02:44</diferencia>
+        </corredor>
+    </clasificacionGeneral>
+
+    <clasificacionEquipos>
+        <equipo posicion="1">
+            <nombre>Decathlon CMA CGM Team</nombre>
+            <tiempo>222:25:14</tiempo>
+            <diferencia>00:00:00</diferencia>
+        </equipo>
+
+        <equipo posicion="2">
+            <nombre>XDS Astana Team</nombre>
+            <tiempo>223:03:14</tiempo>
+            <diferencia>00:38:00</diferencia>
+        </equipo>
+
+        <equipo posicion="3">
+            <nombre>Bahrain Victorious</nombre>
+            <tiempo>223:20:00</tiempo>
+            <diferencia>00:54:46</diferencia>
+        </equipo>
+    </clasificacionEquipos>
+
+</etapa>
