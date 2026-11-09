@@ -123,20 +123,27 @@ table tr:nth-child(even) td {
     color: var(--color-negro);
     background-color: var(--color-secundario);
 }
-/* Especificidad: 013 */
-header + nav[aria-label="migas"] ol {
+/* Especificidad: 012 */
+nav[aria-label="migas"] ol {
     font-size: 0.8em;
     list-style: none;
     margin: 0.5em 1em;
     padding: 0;
 }
- 
-/* Especificidad: 014 */
-header + nav[aria-label="migas"] ol > li {
+/* Especificidad: 013 */
+nav[aria-label="migas"] ol > li {
     display: inline;
 }
- 
-/* Especificidad: 024 */
-header + nav[aria-label="migas"] ol > li:last-child {
+/* Especificidad: 023 */
+nav[aria-label="migas"] ol > li:last-child {
     font-weight: bold;
+}
+/* Especificidad: 011 */
+input[type="search"] {
+    border: none;
+}
+/* Especificidad: 001 */
+mark {
+    background-color: var(--color-secundario);
+    color: var(--color-negro);
 }

@@ -1,41 +1,45 @@
+
 /* ***************************************/
 /*             LaVuelta2026              */
 /*          Estilos generales            */
 /* ***************************************/
 /*    DATOS ESTUDIANTE                   */
 /* --------------------------------------*/
-/*  Nombre y Apellidos: Darío Corbeira Presno         */
-/*  Correo electrónico (uniovi): UO295679@uniovi.es   */
-/*  Grupo de laboratorio: 5               */
+/*  Nombre y Apellidos: Darío Corbeira Presno */
+/*  Correo electrónico (uniovi): UO295679@uniovi.es */
+/*  Grupo de laboratorio: 5              */
 /* ***************************************/
+
 /* Especificidad: 002 */
 section:has(picture) {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
- 
+
 /* Especificidad: 003 */
 section:has(picture) > h3 {
     flex-basis: 100%;
 }
- 
+
 /* Especificidad: 003 */
 section:has(picture) picture {
     order: 1;
 }
- 
+
 /* Especificidad: 003 */
 section:has(picture) ul {
     order: 2;
     list-style: none;
 }
+
 /* Especificidad: 003 */
 section:has(video):has(audio) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 /* Especificidad: 003 */
 section:has(article + article) {
     display: grid;
@@ -44,48 +48,71 @@ section:has(article + article) {
     align-items: center;
     gap: 1em;
 }
+
 /* Especificidad: 004 */
 section:has(article + article) > h3 {
     grid-column: 1 / -1;
 }
+
+/* DISTRIBUCIÓN GENERAL */
+
 /* Especificidad: 001 */
 body {
     display: grid;
     min-height: 100vh;
     grid-template-areas:
         "cabecera"
+        "buscador"
         "migas"
-        "contenido"
+        "principal"
         "pie";
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto auto 1fr auto;
     margin: 0;
 }
+
 /* Especificidad: 001 */
 header {
     grid-area: cabecera;
 }
-/* Especificidad: 012 */
-header + nav[aria-label="migas"] {
+
+/* Especificidad: 011 */
+nav[aria-label="migas"] {
     grid-area: migas;
 }
+
+/* Especificidad: 001 */
+search {
+    grid-area: buscador;
+    justify-self: start;
+    padding: 0.5em;
+    margin: 0.5em 1em;
+    border: 0.1em solid var(--color-principal);
+}
+
 /* Especificidad: 001 */
 main {
-    grid-area: contenido;
+    grid-area: principal;
 }
+
 /* Especificidad: 001 */
 footer {
     grid-area: pie;
 }
+
+/* CABECERA Y NAVEGACIÓN */
+
 /* Especificidad: 001 */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 /* Especificidad: 002 */
 header > h1 {
     margin: 0.5em;
 }
+
 /* Especificidad: 002 */
 header > nav {
     display: flex;
@@ -93,10 +120,19 @@ header > nav {
     justify-content: center;
     align-items: center;
 }
+
 /* Especificidad: 003 */
 header > nav a {
     padding: 0.6em;
 }
+
+/* Especificidad: 002 */
+header > button {
+    display: none;
+}
+
+/* PIE DE PÁGINA */
+
 /* Especificidad: 001 */
 footer {
     display: flex;
@@ -106,6 +142,8 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+/* FORMULARIOS */
 
 /* Especificidad: 001 */
 form {
@@ -157,67 +195,84 @@ form > fieldset > button {
     margin-top: 1em;
     box-sizing: border-box;
 }
- 
+
 @media screen and (max-width: 1024px) {
+
     /* Especificidad: 003 */
     section:has(article + article) {
         /*ADVERTENCIA: redefinición de la propiedad con valor original grid-template-columns: repeat(4, 1fr); */
         grid-template-columns: repeat(2, 1fr);
     }
- 
+
     /* Especificidad: 001 */
     header {
         flex-direction: column;
     }
- 
+
     /* Especificidad: 002 */
     header > nav {
         width: 100%;
     }
- 
+
     /* Especificidad: 003 */
     header > nav a {
         flex: 1;
         text-align: center;
     }
 }
- 
+
 @media screen and (max-width: 768px) {
+
     /* Especificidad: 003 */
     section:has(article + article) {
         /*ADVERTENCIA: redefinición de la propiedad con valor original grid-template-columns: repeat(4, 1fr); */
         grid-template-columns: 1fr;
     }
- 
+
     /* Especificidad: 002 */
     header > nav {
-        flex-direction: column;
+        /*ADVERTENCIA: redefinición de la propiedad con valor original display: flex; */
+        display: none;
     }
- 
+
+    /* Especificidad: 012 */
+    header > nav.abierto {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    /* Especificidad: 002 */
+    header > button {
+        /*ADVERTENCIA: redefinición de la propiedad con valor original display: none; */
+        display: block;
+        margin-bottom: 1em;
+    }
+
     /* Especificidad: 003 */
     header > nav a {
         align-self: stretch;
     }
- 
+
     /* Especificidad: 002 */
     main img {
         max-width: 100%;
         height: auto;
     }
- 
+
     /* Especificidad: 002 */
     main video,
     main audio {
         max-width: 100%;
     }
- 
+
     /* Especificidad: 001 */
     table {
         max-width: 100%;
     }
 
-    /* Especificidad: 012 */
-    header + nav[aria-label="migas"] {
+    /* Especificidad: 011 */
+    nav[aria-label="migas"] {
         display: none;
     }
 
