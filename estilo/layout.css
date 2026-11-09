@@ -83,7 +83,7 @@ nav[aria-label="migas"] {
 /* Especificidad: 001 */
 search {
     grid-area: buscador;
-    justify-self: start;
+    justify-self: end;
     padding: 0.5em;
     margin: 0.5em 1em;
     border: 0.1em solid var(--color-principal);
