@@ -11,6 +11,9 @@
     
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+    <script src="js/ciudad.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/buscador.js" defer></script>
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
@@ -19,6 +22,9 @@
 <body>
    <header>
         <h1><a href="index.html">LaVuelta2026</a></h1>
+        <button type="button"
+            aria-label="Abrir menú de navegación"
+            aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
             <a href="ciclista.html" title="Información sobre el ciclista Timo Roosen">Ciclista</a>
@@ -30,6 +36,17 @@
             <a href="ayuda.html" title="Ayuda y navegación del sitio web">Ayuda</a>
         </nav>
     </header>
+    <search aria-label="Buscador">
+        <label for="busqueda">
+        <img src="multimedia/buscador.png"
+             alt="icono lupa">
+        </label>
+
+        <input type="search"
+           id="busqueda"
+           aria-label="Buscar"
+           placeholder="Buscar...">
+    </search>
     <nav aria-label="migas">
         <ol>
             <li><a href="index.html">Inicio</a></li>
@@ -38,14 +55,6 @@
     </nav>
     <main>
     <h2>Meteorología</h2>
-    <section>
-        <h3>Meteorología</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
     </main>
     <footer>
         <p>Darío Corbeira Presno</p>

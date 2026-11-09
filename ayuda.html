@@ -11,6 +11,8 @@
    
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+    <script src="js/menu.js" defer></script>
+    <script src="js/buscador.js" defer></script>
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
@@ -19,6 +21,9 @@
 <body>
    <header>
         <h1><a href="index.html">LaVuelta2026</a></h1>
+        <button type="button"
+            aria-label="Abrir menú de navegación"
+            aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
             <a href="ciclista.html" title="Información sobre el ciclista Timo Roosen">Ciclista</a>
@@ -30,6 +35,17 @@
             <a href="ayuda.html" title="Ayuda y navegación del sitio web" aria-current="page">Ayuda</a>
         </nav>
     </header>
+    <search aria-label="Buscador">
+        <label for="busqueda">
+        <img src="multimedia/buscador.png"
+             alt="icono lupa">
+        </label>
+
+        <input type="search"
+           id="busqueda"
+           aria-label="Buscar"
+           placeholder="Buscar...">
+    </search>
     <nav aria-label="migas">
         <ol>
             <li><a href="index.html">Inicio</a></li>
@@ -46,16 +62,20 @@
             y datos de su trayectoria deportiva. También incorpora una fotografía adaptativa que cambia según el tamaño de pantalla y una sección multimedia 
             dedicada al Team Picnic PostNL.</p>
         <h3>Equipo</h3>
-        <p>La página del equipo presenta información sobre el Team Picnic PostNL y una sección de alineación con ocho tarjetas de corredores. 
+        <p>La página del equipo presenta información sobre el Team Picnic PostNL (Director deportivo y categoría) y una sección de alineación con ocho tarjetas de corredores. 
             Cada tarjeta incluye un nombre provisional, un icono de ciclista, un dorsal y datos de nacimiento y nacionalidad.</p>
         <h3>Etapa</h3>
         <p>La página de la etapa contiene información sobre la etapa 21 de La Vuelta 2026, con salida en Carrefour Granada y llegada en Granada.</p>
         <h3>Meteorología</h3>
-        <p>La página de meteorología está dedicada a mostrar información sobre las condiciones meteorológicas relacionadas con la etapa seleccionada.</p>
+        <p>La página de meteorología está dedicada a mostrar información sobre las condiciones meteorológicas relacionadas con la etapa seleccionada. También, muestra
+            el gentilicio, la población y las coordenadas de la ciudad de salida de la etapa.
+        </p>
         <h3>Clasificaciones</h3>
         <p>La página de clasificaciones está destinada a mostrar los resultados y las posiciones de los ciclistas y equipos de la carrera.</p>
         <h3>Juegos</h3>
-        <p>La página de juegos ofrece actividades relacionadas con La Vuelta 2026 y con la información de la etapa seleccionada.</p>
+        <p>La página de juegos ofrece actividades relacionadas con La Vuelta 2026 y con la información de la etapa seleccionada. Puedes realizar un formulario y mirar
+            cuantas preguntas respondes correctamente.
+        </p>
     </section>
     </main>
     <footer>
